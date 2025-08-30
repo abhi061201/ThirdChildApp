@@ -1,0 +1,17 @@
+# Ignore OS/editor files
+.DS_Store
+.idea
+.vscode
+
+# Ignore build folders
+android/
+ios/
+node_modules/
+example/
+coverage/
+dist/
+
+# Ignore configs not needed in published package
+babel.config.js
+metro.config.js
+Gemfile
